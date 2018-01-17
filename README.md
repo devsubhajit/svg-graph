@@ -31,3 +31,7 @@ or if you are calling multiple functions in onload
 	svgGrpah();
       };
 </script>
+
+# Demo link is here
+
+* https://devsubhajit.github.io/svg-chart/index.html
