@@ -38,11 +38,7 @@ or if you are calling multiple functions in onload
 
 # How to add attributes ( Options )
 * First of all, as its now only line graph, we have to set an html attribute as "data-graph='line'"
-* Example: 
-    <div data-graph='line'>
-            <span class='ui-max-value'>1000</span>
-            <span class='ui-graph-values'>124 454 235 458 456 124 354 444 222 102</span>
-     </div>
+* Example: data-graph='line' on your element
 
 Others two span are represented as "max value" and "all values", these are the dynamic part only developer will make it.
 Like "data-graph='line'", we are going to add other attributes
