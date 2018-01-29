@@ -20,17 +20,17 @@ svgGrpah();
 
 example:: 
 
-<script type="text/javascript">
-      window.onload = svgGrpah;
-</script>
+    <script type="text/javascript">
+       window.onload = svgGrpah;
+    </script>
 
 or if you are calling multiple functions in onload
 
-<script type="text/javascript">
-      window.onload = function(){
-	svgGrpah();
+     <script type="text/javascript">
+       window.onload = function(){
+	 svgGrpah();
       };
-</script>
+    </script>
 
 # Demo link is here
 
@@ -39,7 +39,7 @@ or if you are calling multiple functions in onload
 # How to add attributes ( Options )
 * First of all, as its now only line graph, we have to set an html attribute as "data-graph='line'"
 * Example: 
-      <div data-graph='line'></div>
+    <div data-graph='line'></div>
 
 Others two span are represented as "max value" and "all values", these are the dynamic part only developer will make it.
 Like "data-graph='line'", we are going to add other attributes
